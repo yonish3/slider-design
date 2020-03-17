@@ -1,22 +1,17 @@
-    /* html{
-	height:100%; */
-	/* background:#42426b; */
-	/* background:radial-gradient(#31314a,#42426b); */
-	/* background-repeat:no-repeat;
-} */
 
-
-body{
+.container{
 	margin:0;
-	color:#444;
+	color: white;
 	/* padding:50px; */
 	font:300 18px/18px Roboto, sans-serif;
+	padding: 15vh;
 }
 *,:after,:before{box-sizing:border-box}
 .pull-left{float:left}
 .pull-right{float:right}
 .clearfix:after,.clearfix:before{content:'';display:table}
 .clearfix:after{clear:both;display:block}
+
 
 .slidecontainer {
     width: 100%;
@@ -27,11 +22,12 @@ body{
     width: 100%;
     height: 15px;
     border-radius: 5px;
-    background: #d3d3d3;
+    background: #1eb2a6;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
-    transition: opacity .2s;
+	transition: opacity .2s;
+	margin-bottom: 10px;
   }
   
   .slider:hover {
@@ -55,85 +51,6 @@ body{
     background: #be4160;
     cursor: pointer;
   }
-
-/* 
-.rangeslider,
-.rangeslider__fill {
-	display:block;
-	border-radius:10px;
-}
-
-.rangeslider {
-	position:relative;
-}
-.rangeslider:after{
-	top:50%;
-	left:0;
-	right:0;
-	content:'';
-	width:100%;
-	height:5px;
-	margin-top:-2.5px;
-	border-radius:5px;
-	position:absolute;
-	background:#212131;
-}
-
-.rangeslider--horizontal{
-	width:100%;
-	height:28px;
-}
-
-.rangeslider--vertical{
-	width:5px;
-	min-height:150px;
-	max-height:100%;
-}
-.rangeslider--disabled{
-	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-	opacity:0.4;
-}
-
-.rangeslider__fill{
-	position:absolute;
-	background:#ff637b;
-}
-.rangeslider--horizontal .rangeslider__fill{
-	top:0;
-	height:100%;
-}
-.rangeslider--vertical .rangeslider__fill{
-	bottom:0;
-	width:100%;
-}
-
-.rangeslider__handle{
-	top:50%;
-	width:28px;
-	height:28px;
-	cursor:pointer;
-	margin-top:-14px;
-	background:white;
-	position:absolute;
-	background:#ff637b;
-	border-radius:50%;
-	display:inline-block;
-}
-.rangeslider__handle:active{
-	background:#ff5a7b;
-}
-
-.rangeslider__fill,
-.rangeslider__handle{
-	z-index:1;
-}
-.rangeslider--horizontal .rangeslider__fill{
-	top:50%;
-	height:5px;
-	margin-top:-2.5px;
-} */
-
-/* Budget */
 
 .budget-wrap{
 	padding:40px;
